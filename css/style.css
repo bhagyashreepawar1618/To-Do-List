@@ -113,7 +113,10 @@ body
 }
 
 
-
+.hide
+{
+    display: none;
+}
 
 
 
