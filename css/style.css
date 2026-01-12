@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding:0;
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    background-color: #9b9eb6;
+}
+
+.container
+{
+    height:100vh;
+    margin-top:10%;
+
+}
+.todolist-body
+{
+    background-color: #161f3e;
+    border-radius:20px;
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
+}
+
+.todolist-body h1
+{
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#input-section
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#task-input
+{
+    width: 70%;
+    padding:10px;
+    border: none;
+    color:black;
+    border-radius: 12px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.btn
+{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px ;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#task-input :hover
+{
+    background-color: rgb(254, 195, 0);
+    border:10px solid skyblue;
+    color: black;
+}
+
+#addtask:hover{
+    border:1px solid rgb(255, 255, 255);
+}
+
+
+/* tasklist styling */
+
+.listmember
+{
+    margin-top: 5px;
+    margin-bottom:30px;
+    width:80%;
+    height:50px;
+    background-color:rgb(192, 175, 175);
+    border-radius:15px;
+    display: flex;
+    color:#161f3e;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.listmember p
+{
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 25px;
+    color: #161f3e;
+}
+
+.deletebtn
+{
+    color:rgb(255, 255, 255);
+    font-size:15px;
+    font-weight: bold;
+    padding:10px;
+    background-color: #4CAF50;
+    border:none;
+    border-radius:10px;
+    text-align: center;
+}
+
+
+
+
+
+
