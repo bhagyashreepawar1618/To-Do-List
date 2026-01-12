@@ -8,6 +8,9 @@ let delalltask=document.getElementById("delalltask");
 addtask.addEventListener("click",(e)=>
 {
     e.preventDefault();
+    //delete btn enabled 
+    //it is disbaled only visible when atleast one task is added..
+    delalltask.classList.remove("hide");
     // create element for each new task 
     let newtask=document.createElement("div");
     newtask.classList.add("listmember");
@@ -26,23 +29,24 @@ addtask.addEventListener("click",(e)=>
     console.log(btn);
     newtask.appendChild(btn);
 
-
     //when delete btn is clicked
     //task shoud be deleted
     btn.addEventListener("click",()=>
     {
         newtask.remove();
     });
-});
 
-
-// delete all tasks 
-// add event listner on delete all btn 
-delalltask.addEventListener("click",()=>
-{
-    let listel=document.getElementsByClassName("listmember");
-    for(let el of listel)
+    // delete all tasks 
+    // add event listner on delete all btn 
+    delalltask.addEventListener("click",()=>
     {
-        el.remove();
-    }
+        let listel=document.getElementsByClassName("listmember");
+        for(let el of listel)
+        {
+            console.log(el);
+            el.remove();
+        }
+    });
 });
+
+
