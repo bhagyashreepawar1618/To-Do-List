@@ -118,5 +118,8 @@ body
     display: none;
 }
 
-
+p
+{
+    cursor: pointer;
+}
 
