@@ -43,9 +43,14 @@ addtask.addEventListener("click",(e)=>
         let listel=document.getElementsByClassName("listmember");
         for(let el of listel)
         {
-            console.log(el);
             el.remove();
         }
+    });
+
+    //when task is complete
+    taskname.addEventListener("click",()=>
+    {
+        taskname.classList.toggle("complete");
     });
 });
 
