@@ -123,3 +123,9 @@ p
     cursor: pointer;
 }
 
+/* when task is completed  */
+/* add a text decoration of line through */
+.complete
+{
+    text-decoration: line-through;
+}
