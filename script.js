@@ -9,7 +9,8 @@ addtask.addEventListener("click",(e)=>
 {
     e.preventDefault();
     //delete btn enabled 
-    //it is disbaled only visible when atleast one task is added..
+    //it is displayed only when atleast one task is added..
+    //otherwise it had display none
     delalltask.classList.remove("hide");
     // create element for each new task 
     let newtask=document.createElement("div");
@@ -25,12 +26,13 @@ addtask.addEventListener("click",(e)=>
     //button to delete a task
     let btn=document.createElement("button");
     btn.innerText="Delete";
+    //adding class to add styling to btn
     btn.classList.add("deletebtn");
     console.log(btn);
     newtask.appendChild(btn);
 
     //when delete btn is clicked
-    //task shoud be deleted
+    //task should be deleted
     btn.addEventListener("click",()=>
     {
         newtask.remove();
@@ -48,6 +50,7 @@ addtask.addEventListener("click",(e)=>
     });
 
     //when task is complete
+    //it 
     taskname.addEventListener("click",()=>
     {
         taskname.classList.toggle("complete");
