@@ -50,7 +50,8 @@ addtask.addEventListener("click",(e)=>
     });
 
     //when task is complete
-    //it 
+    //it will shown like the task is completed
+    //a line through decoration will be given
     taskname.addEventListener("click",()=>
     {
         taskname.classList.toggle("complete");
