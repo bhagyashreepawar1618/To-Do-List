@@ -1,4 +1,4 @@
-# 📝 To-Do List App
+# 📝 To-Do List App (js)
 
 A simple and interactive **To-Do List Application** built using **Core HTML, CSS, and JavaScript**.
 
@@ -8,7 +8,8 @@ This project allows users to manage their daily tasks efficiently with features 
 
 ## 🚀 Live Demo
 
-(Add your live project link here)
+<img width="1093" height="821" alt="image" src="https://github.com/user-attachments/assets/deff1b09-c0a6-4ae3-982a-046f2637fcfe" />
+
 
 ---
 
